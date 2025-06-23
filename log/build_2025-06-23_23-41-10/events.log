@@ -1,0 +1,974 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000227] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000257] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000317] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000342] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000376] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000436] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000473] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000490] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000499] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000509] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000520] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.007025] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.007816] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.008305] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anish/ps1_ws/build/turtlebot3_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/anish/ps1_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anish'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anish'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/anish/ps1_ws'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14230'), ('COLCON_PREFIX_PATH', '/home/anish/ps1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anish'), ('JOURNAL_STREAM', '8:18270'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anish/ps1_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/anish/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/anish-OMEN-by-HP-Gaming-Laptop-16-xd0xxx:@/tmp/.ICE-unix/1935,unix/anish-OMEN-by-HP-Gaming-Laptop-16-xd0xxx:/tmp/.ICE-unix/1935'), ('INVOCATION_ID', '249bc1a38cd542e094c12bf2c5c9b9a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8cb3d65949.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anish/ps1_ws/install/turtlebot3:/home/anish/ps1_ws/install/turtlebot3_teleop:/home/anish/ps1_ws/install/turtlebot3_simulations:/home/anish/ps1_ws/install/turtlebot3_bringup:/home/anish/ps1_ws/install/turtlebot3_node:/home/anish/ps1_ws/install/turtlebot3_navigation2:/home/anish/ps1_ws/install/turtlebot3_gazebo:/home/anish/ps1_ws/install/turtlebot3_fake_node:/home/anish/ps1_ws/install/turtlebot3_example:/home/anish/ps1_ws/install/turtlebot3_description:/home/anish/ps1_ws/install/turtlebot3_cartographer:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anish/ps1_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anish/ps1_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/anish/ps1_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/anish/ps1_ws/install/turtlebot3:/home/anish/ps1_ws/install/turtlebot3_simulations:/home/anish/ps1_ws/install/turtlebot3_bringup:/home/anish/ps1_ws/install/turtlebot3_node:/home/anish/ps1_ws/install/turtlebot3_navigation2:/home/anish/ps1_ws/install/turtlebot3_gazebo:/home/anish/ps1_ws/install/turtlebot3_fake_node:/home/anish/ps1_ws/install/turtlebot3_description:/home/anish/ps1_ws/install/turtlebot3_cartographer:/home/anish/ps1_ws/install/turtlebot3_teleop:/home/anish/ps1_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.031695] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099379] (-) TimerEvent: {}
+[0.123081] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.123322] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.123363] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.123393] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.123422] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.123453] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.123485] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.123516] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.123546] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.123574] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.123605] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.140778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.162346] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.163104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.166565] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.167365] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.172221] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.172376] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.178896] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.178984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.179018] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.179068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.179134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.179181] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.179209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.179251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.179294] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.179344] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.179397] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.179448] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.199443] (-) TimerEvent: {}
+[0.269612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.270315] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.270605] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.287141] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.296299] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.299551] (-) TimerEvent: {}
+[0.301706] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.314728] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.352733] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.363390] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.394575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.394747] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.399628] (-) TimerEvent: {}
+[0.411393] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.416377] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.428912] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.455181] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.455414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.455625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.455772] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.455834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.464392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.464603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.464809] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.465003] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.465534] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.465754] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.498302] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.499731] (-) TimerEvent: {}
+[0.509967] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.544847] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.556809] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.587441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.587657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.587819] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.588717] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[0.588834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.599812] (-) TimerEvent: {}
+[0.601130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.602775] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.606665] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.612863] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.620485] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.642717] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.652576] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.668332] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.669473] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.679905] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.699962] (-) TimerEvent: {}
+[0.702603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.713569] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.764365] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.789834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.796931] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/anish/ps1_ws/build/turtlebot3_gazebo\n'}
+[0.800020] (-) TimerEvent: {}
+[0.822827] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlebot3_drive\x1b[0m\n'}
+[0.823721] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle1\x1b[0m\n'}
+[0.823842] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacles\x1b[0m\n'}
+[0.823911] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle2\x1b[0m\n'}
+[0.838480] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[0.855795] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[0.856008] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[0.856102] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[0.900133] (-) TimerEvent: {}
+[1.000414] (-) TimerEvent: {}
+[1.100706] (-) TimerEvent: {}
+[1.201108] (-) TimerEvent: {}
+[1.301449] (-) TimerEvent: {}
+[1.401774] (-) TimerEvent: {}
+[1.502086] (-) TimerEvent: {}
+[1.602362] (-) TimerEvent: {}
+[1.702729] (-) TimerEvent: {}
+[1.803026] (-) TimerEvent: {}
+[1.903347] (-) TimerEvent: {}
+[2.003656] (-) TimerEvent: {}
+[2.103948] (-) TimerEvent: {}
+[2.204260] (-) TimerEvent: {}
+[2.304656] (-) TimerEvent: {}
+[2.405053] (-) TimerEvent: {}
+[2.505414] (-) TimerEvent: {}
+[2.605771] (-) TimerEvent: {}
+[2.706132] (-) TimerEvent: {}
+[2.806435] (-) TimerEvent: {}
+[2.906748] (-) TimerEvent: {}
+[3.007043] (-) TimerEvent: {}
+[3.107407] (-) TimerEvent: {}
+[3.207696] (-) TimerEvent: {}
+[3.308021] (-) TimerEvent: {}
+[3.408335] (-) TimerEvent: {}
+[3.508637] (-) TimerEvent: {}
+[3.608989] (-) TimerEvent: {}
+[3.709364] (-) TimerEvent: {}
+[3.809728] (-) TimerEvent: {}
+[3.910101] (-) TimerEvent: {}
+[4.010455] (-) TimerEvent: {}
+[4.110812] (-) TimerEvent: {}
+[4.211162] (-) TimerEvent: {}
+[4.311539] (-) TimerEvent: {}
+[4.411980] (-) TimerEvent: {}
+[4.512382] (-) TimerEvent: {}
+[4.612854] (-) TimerEvent: {}
+[4.713239] (-) TimerEvent: {}
+[4.813488] (-) TimerEvent: {}
+[4.913779] (-) TimerEvent: {}
+[5.014147] (-) TimerEvent: {}
+[5.114505] (-) TimerEvent: {}
+[5.214877] (-) TimerEvent: {}
+[5.315204] (-) TimerEvent: {}
+[5.415488] (-) TimerEvent: {}
+[5.516108] (-) TimerEvent: {}
+[5.616676] (-) TimerEvent: {}
+[5.717038] (-) TimerEvent: {}
+[5.817332] (-) TimerEvent: {}
+[5.917670] (-) TimerEvent: {}
+[6.018097] (-) TimerEvent: {}
+[6.118415] (-) TimerEvent: {}
+[6.218779] (-) TimerEvent: {}
+[6.319345] (-) TimerEvent: {}
+[6.419773] (-) TimerEvent: {}
+[6.520218] (-) TimerEvent: {}
+[6.620551] (-) TimerEvent: {}
+[6.720882] (-) TimerEvent: {}
+[6.821216] (-) TimerEvent: {}
+[6.921486] (-) TimerEvent: {}
+[7.021747] (-) TimerEvent: {}
+[7.122038] (-) TimerEvent: {}
+[7.222325] (-) TimerEvent: {}
+[7.322683] (-) TimerEvent: {}
+[7.423018] (-) TimerEvent: {}
+[7.523362] (-) TimerEvent: {}
+[7.623623] (-) TimerEvent: {}
+[7.723876] (-) TimerEvent: {}
+[7.824182] (-) TimerEvent: {}
+[7.924486] (-) TimerEvent: {}
+[8.024846] (-) TimerEvent: {}
+[8.125219] (-) TimerEvent: {}
+[8.225696] (-) TimerEvent: {}
+[8.326183] (-) TimerEvent: {}
+[8.426613] (-) TimerEvent: {}
+[8.526943] (-) TimerEvent: {}
+[8.627547] (-) TimerEvent: {}
+[8.676528] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[8.727657] (-) TimerEvent: {}
+[8.738359] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[8.827798] (-) TimerEvent: {}
+[8.846316] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle2\n'}
+[8.866623] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[8.914602] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[8.927867] (-) TimerEvent: {}
+[9.023655] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[9.027948] (-) TimerEvent: {}
+[9.036299] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[9.036747] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[9.044109] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anish/ps1_ws/build/turtlebot3_gazebo'], 'cwd': '/home/anish/ps1_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anish'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anish'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/anish/ps1_ws'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14230'), ('COLCON_PREFIX_PATH', '/home/anish/ps1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anish'), ('JOURNAL_STREAM', '8:18270'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anish/ps1_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/anish/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/anish-OMEN-by-HP-Gaming-Laptop-16-xd0xxx:@/tmp/.ICE-unix/1935,unix/anish-OMEN-by-HP-Gaming-Laptop-16-xd0xxx:/tmp/.ICE-unix/1935'), ('INVOCATION_ID', '249bc1a38cd542e094c12bf2c5c9b9a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8cb3d65949.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anish/ps1_ws/install/turtlebot3:/home/anish/ps1_ws/install/turtlebot3_teleop:/home/anish/ps1_ws/install/turtlebot3_simulations:/home/anish/ps1_ws/install/turtlebot3_bringup:/home/anish/ps1_ws/install/turtlebot3_node:/home/anish/ps1_ws/install/turtlebot3_navigation2:/home/anish/ps1_ws/install/turtlebot3_gazebo:/home/anish/ps1_ws/install/turtlebot3_fake_node:/home/anish/ps1_ws/install/turtlebot3_example:/home/anish/ps1_ws/install/turtlebot3_description:/home/anish/ps1_ws/install/turtlebot3_cartographer:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anish/ps1_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anish/ps1_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/anish/ps1_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/anish/ps1_ws/install/turtlebot3:/home/anish/ps1_ws/install/turtlebot3_simulations:/home/anish/ps1_ws/install/turtlebot3_bringup:/home/anish/ps1_ws/install/turtlebot3_node:/home/anish/ps1_ws/install/turtlebot3_navigation2:/home/anish/ps1_ws/install/turtlebot3_gazebo:/home/anish/ps1_ws/install/turtlebot3_fake_node:/home/anish/ps1_ws/install/turtlebot3_description:/home/anish/ps1_ws/install/turtlebot3_cartographer:/home/anish/ps1_ws/install/turtlebot3_teleop:/home/anish/ps1_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[9.050611] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.050760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[9.050852] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[9.050924] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[9.051040] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[9.051184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[9.051278] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[9.051336] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[9.051392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[9.051447] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[9.051502] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[9.051558] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[9.051615] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[9.051673] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[9.051730] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[9.051785] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[9.051839] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[9.051894] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[9.051949] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[9.052003] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[9.052143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[9.052215] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[9.052247] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[9.052275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[9.052302] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[9.052330] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[9.052378] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[9.052406] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[9.052451] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[9.052478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[9.052534] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[9.052562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[9.052589] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[9.052617] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[9.052642] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[9.052670] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[9.052697] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[9.052736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[9.052764] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[9.052792] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[9.052820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[9.052848] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[9.052875] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[9.052903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[9.052930] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[9.052994] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[9.053022] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[9.053050] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[9.053122] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[9.053152] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[9.053203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[9.053231] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[9.053259] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[9.053306] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[9.053351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[9.053392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[9.053439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[9.053466] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[9.053514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[9.053562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[9.053590] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[9.053622] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[9.053659] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[9.053713] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[9.053781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[9.053826] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[9.053876] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[9.053928] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[9.053973] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[9.054091] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[9.054134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[9.054204] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[9.054255] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[9.054301] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[9.054351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[9.054401] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models\n'}
+[9.054428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01\n'}
+[9.054475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/model.sdf\n'}
+[9.054513] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/model.config\n'}
+[9.054542] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/materials\n'}
+[9.054570] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/materials/textures\n'}
+[9.054597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png\n'}
+[9.054625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/meshes\n'}
+[9.054653] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE\n'}
+[9.054685] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE\n'}
+[9.054731] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01\n'}
+[9.054760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/model.sdf\n'}
+[9.054790] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/model.config\n'}
+[9.054818] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/materials\n'}
+[9.054901] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/materials/textures\n'}
+[9.054931] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png\n'}
+[9.054960] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/meshes\n'}
+[9.054988] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE\n'}
+[9.055041] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE\n'}
+[9.055091] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01\n'}
+[9.055122] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/model.sdf\n'}
+[9.055148] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/model.config\n'}
+[9.055173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/materials\n'}
+[9.055199] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/materials/textures\n'}
+[9.055224] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png\n'}
+[9.055252] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/meshes\n'}
+[9.055280] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE\n'}
+[9.055308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE\n'}
+[9.055337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01\n'}
+[9.055402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/model.sdf\n'}
+[9.055430] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/model.config\n'}
+[9.055458] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/materials\n'}
+[9.055486] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/materials/textures\n'}
+[9.055514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png\n'}
+[9.055541] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/meshes\n'}
+[9.055569] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE\n'}
+[9.055618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE\n'}
+[9.055671] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01\n'}
+[9.055700] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/model.sdf\n'}
+[9.055728] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/model.config\n'}
+[9.055755] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/materials\n'}
+[9.055841] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures\n'}
+[9.055870] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png\n'}
+[9.055899] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png\n'}
+[9.055946] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/meshes\n'}
+[9.055975] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE\n'}
+[9.056003] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE\n'}
+[9.056031] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02\n'}
+[9.056059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/model.sdf\n'}
+[9.056134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/model.config\n'}
+[9.056161] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/materials\n'}
+[9.056187] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/materials/textures\n'}
+[9.056212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png\n'}
+[9.056237] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png\n'}
+[9.056263] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/meshes\n'}
+[9.056291] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE\n'}
+[9.056325] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE\n'}
+[9.056351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02\n'}
+[9.056377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/model.sdf\n'}
+[9.056403] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/model.config\n'}
+[9.056429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/materials\n'}
+[9.056454] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/materials/textures\n'}
+[9.056486] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png\n'}
+[9.056513] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/meshes\n'}
+[9.056539] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE\n'}
+[9.056565] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE\n'}
+[9.056598] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01\n'}
+[9.056623] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/model.sdf\n'}
+[9.056649] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/model.config\n'}
+[9.056686] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/materials\n'}
+[9.056714] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/materials/textures\n'}
+[9.056740] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png\n'}
+[9.056765] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/meshes\n'}
+[9.056791] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE\n'}
+[9.056831] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE\n'}
+[9.056870] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01\n'}
+[9.056907] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/model.sdf\n'}
+[9.056938] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/model.config\n'}
+[9.056967] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/materials\n'}
+[9.056997] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/materials/textures\n'}
+[9.057030] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png\n'}
+[9.057058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/meshes\n'}
+[9.057097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE\n'}
+[9.057150] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE\n'}
+[9.057178] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01\n'}
+[9.057206] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/model.sdf\n'}
+[9.057239] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/model.config\n'}
+[9.057268] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/materials\n'}
+[9.057296] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/materials/textures\n'}
+[9.057331] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png\n'}
+[9.057360] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/meshes\n'}
+[9.057389] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE\n'}
+[9.057425] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE\n'}
+[9.057492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01\n'}
+[9.057538] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/model.sdf\n'}
+[9.057566] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/model.config\n'}
+[9.057594] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/materials\n'}
+[9.057622] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/materials/textures\n'}
+[9.057667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png\n'}
+[9.057697] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/meshes\n'}
+[9.057726] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE\n'}
+[9.057754] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE\n'}
+[9.057782] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01\n'}
+[9.057810] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/model.sdf\n'}
+[9.057838] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/model.config\n'}
+[9.057866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/materials\n'}
+[9.057894] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures\n'}
+[9.057922] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png\n'}
+[9.057949] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png\n'}
+[9.057977] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/meshes\n'}
+[9.058007] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE\n'}
+[9.058036] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE\n'}
+[9.058068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01\n'}
+[9.058159] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/model.sdf\n'}
+[9.058201] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/model.config\n'}
+[9.058230] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/materials\n'}
+[9.058258] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/materials/textures\n'}
+[9.058286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png\n'}
+[9.058331] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/meshes\n'}
+[9.058372] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE\n'}
+[9.058401] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE\n'}
+[9.058428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01\n'}
+[9.058456] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/model.sdf\n'}
+[9.058484] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/model.config\n'}
+[9.058512] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/materials\n'}
+[9.058540] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/materials/textures\n'}
+[9.058613] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png\n'}
+[9.058641] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/meshes\n'}
+[9.058681] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE\n'}
+[9.058709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE\n'}
+[9.058737] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01\n'}
+[9.058765] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/model.sdf\n'}
+[9.058837] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/model.config\n'}
+[9.058865] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/materials\n'}
+[9.058893] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/materials/textures\n'}
+[9.058920] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png\n'}
+[9.058949] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/meshes\n'}
+[9.058976] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE\n'}
+[9.059004] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE\n'}
+[9.059032] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01\n'}
+[9.059059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/model.sdf\n'}
+[9.059124] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/model.config\n'}
+[9.059150] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/materials\n'}
+[9.059179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/materials/textures\n'}
+[9.059206] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png\n'}
+[9.059236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/meshes\n'}
+[9.059264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE\n'}
+[9.059292] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE\n'}
+[9.059324] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01\n'}
+[9.059352] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/model.sdf\n'}
+[9.059380] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/model.config\n'}
+[9.059436] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/materials\n'}
+[9.059464] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures\n'}
+[9.059492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png\n'}
+[9.059520] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png\n'}
+[9.059549] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/meshes\n'}
+[9.059577] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[9.059604] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[9.059633] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02\n'}
+[9.059660] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/model.sdf\n'}
+[9.059714] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/model.config\n'}
+[9.059747] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/materials\n'}
+[9.059775] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/materials/textures\n'}
+[9.059803] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png\n'}
+[9.059830] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/meshes\n'}
+[9.059859] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE\n'}
+[9.059908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE\n'}
+[9.059949] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01\n'}
+[9.059977] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/model.sdf\n'}
+[9.060005] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/model.config\n'}
+[9.060057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/materials\n'}
+[9.060094] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/materials/textures\n'}
+[9.060134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png\n'}
+[9.060163] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/meshes\n'}
+[9.060191] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE\n'}
+[9.060219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE\n'}
+[9.060248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02\n'}
+[9.060275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/model.sdf\n'}
+[9.060303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/model.config\n'}
+[9.060332] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/materials\n'}
+[9.060359] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures\n'}
+[9.060387] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png\n'}
+[9.060415] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png\n'}
+[9.060443] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/meshes\n'}
+[9.060471] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[9.060499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[9.060527] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01\n'}
+[9.060555] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/model.sdf\n'}
+[9.060593] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/model.config\n'}
+[9.060621] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/materials\n'}
+[9.060650] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/materials/textures\n'}
+[9.060720] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png\n'}
+[9.060755] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png\n'}
+[9.060784] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/meshes\n'}
+[9.060812] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE\n'}
+[9.060840] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE\n'}
+[9.060886] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02\n'}
+[9.060914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/model.sdf\n'}
+[9.060942] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/model.config\n'}
+[9.060970] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/materials\n'}
+[9.060998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/materials/textures\n'}
+[9.061027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png\n'}
+[9.061055] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png\n'}
+[9.061104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/meshes\n'}
+[9.061145] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE\n'}
+[9.061178] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE\n'}
+[9.061207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01\n'}
+[9.061245] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/model.sdf\n'}
+[9.061272] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/model.config\n'}
+[9.061300] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/materials\n'}
+[9.061328] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/materials/textures\n'}
+[9.061357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png\n'}
+[9.061385] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/meshes\n'}
+[9.061413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE\n'}
+[9.061441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE\n'}
+[9.061469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01\n'}
+[9.061504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/model.sdf\n'}
+[9.061551] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/model.config\n'}
+[9.061585] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/materials\n'}
+[9.061611] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/materials/textures\n'}
+[9.061639] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png\n'}
+[9.061667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes\n'}
+[9.061709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE\n'}
+[9.061735] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE\n'}
+[9.061767] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE\n'}
+[9.061796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01\n'}
+[9.061838] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/model.sdf\n'}
+[9.061866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/model.config\n'}
+[9.061893] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/materials\n'}
+[9.061921] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/materials/textures\n'}
+[9.061949] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png\n'}
+[9.061976] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes\n'}
+[9.062005] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE\n'}
+[9.062032] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE\n'}
+[9.062060] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes/aws_ handle_01_collision.DAE\n'}
+[9.062123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04\n'}
+[9.062151] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/model.sdf\n'}
+[9.062179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/model.config\n'}
+[9.062207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/materials\n'}
+[9.062235] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures\n'}
+[9.062291] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png\n'}
+[9.062331] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png\n'}
+[9.062358] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/meshes\n'}
+[9.062400] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[9.062428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[9.062471] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01\n'}
+[9.062499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/model.sdf\n'}
+[9.062540] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/model.config\n'}
+[9.062568] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/materials\n'}
+[9.062596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/materials/textures\n'}
+[9.062624] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png\n'}
+[9.062676] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/meshes\n'}
+[9.062709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE\n'}
+[9.062736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE\n'}
+[9.062764] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01\n'}
+[9.062792] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/model.sdf\n'}
+[9.062820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/model.config\n'}
+[9.062848] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/materials\n'}
+[9.062875] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/materials/textures\n'}
+[9.062907] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png\n'}
+[9.062935] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/meshes\n'}
+[9.062963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE\n'}
+[9.062992] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE\n'}
+[9.063019] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01\n'}
+[9.063082] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/model.sdf\n'}
+[9.063123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/model.config\n'}
+[9.063151] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials\n'}
+[9.063197] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures\n'}
+[9.063225] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png\n'}
+[9.063267] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png\n'}
+[9.063295] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png\n'}
+[9.063323] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png\n'}
+[9.063351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/meshes\n'}
+[9.063401] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE\n'}
+[9.063429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE\n'}
+[9.063457] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01\n'}
+[9.063485] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/model.sdf\n'}
+[9.063513] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/model.config\n'}
+[9.063541] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/materials\n'}
+[9.063569] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/materials/textures\n'}
+[9.063597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png\n'}
+[9.063625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/meshes\n'}
+[9.063653] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE\n'}
+[9.063712] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE\n'}
+[9.063741] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01\n'}
+[9.063768] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/model.sdf\n'}
+[9.063796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/model.config\n'}
+[9.063824] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/materials\n'}
+[9.063852] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures\n'}
+[9.063903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png\n'}
+[9.063931] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/meshes\n'}
+[9.063960] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE\n'}
+[9.063988] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE\n'}
+[9.064016] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01\n'}
+[9.064044] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/model.sdf\n'}
+[9.064101] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/model.config\n'}
+[9.064145] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/materials\n'}
+[9.064184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/materials/textures\n'}
+[9.064212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png\n'}
+[9.064246] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/meshes\n'}
+[9.064275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE\n'}
+[9.064302] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE\n'}
+[9.064355] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01\n'}
+[9.064383] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/model.sdf\n'}
+[9.064411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/model.config\n'}
+[9.064439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/materials\n'}
+[9.064467] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/materials/textures\n'}
+[9.064495] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png\n'}
+[9.064523] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png\n'}
+[9.064552] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/meshes\n'}
+[9.064579] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE\n'}
+[9.064607] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE\n'}
+[9.064680] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01\n'}
+[9.064714] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/model.sdf\n'}
+[9.064821] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/model.config\n'}
+[9.064866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/materials\n'}
+[9.064920] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures\n'}
+[9.064966] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png\n'}
+[9.065011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/meshes\n'}
+[9.065047] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE\n'}
+[9.065104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE\n'}
+[9.065147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01\n'}
+[9.065175] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/model.sdf\n'}
+[9.065204] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/model.config\n'}
+[9.065232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/materials\n'}
+[9.065276] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures\n'}
+[9.065303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png\n'}
+[9.065329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/meshes\n'}
+[9.065357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE\n'}
+[9.065386] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE\n'}
+[9.065414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01\n'}
+[9.065469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/model.sdf\n'}
+[9.065498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/model.config\n'}
+[9.065527] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/materials\n'}
+[9.065555] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/materials/textures\n'}
+[9.065583] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png\n'}
+[9.065612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png\n'}
+[9.065661] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/meshes\n'}
+[9.065698] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE\n'}
+[9.065744] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE\n'}
+[9.065773] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01\n'}
+[9.065801] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/model.sdf\n'}
+[9.065829] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/model.config\n'}
+[9.065857] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/materials\n'}
+[9.065885] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/materials/textures\n'}
+[9.065914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png\n'}
+[9.065947] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/meshes\n'}
+[9.065997] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE\n'}
+[9.066025] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE\n'}
+[9.066054] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01\n'}
+[9.066103] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/model.sdf\n'}
+[9.066133] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/model.config\n'}
+[9.066162] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/materials\n'}
+[9.066191] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures\n'}
+[9.066219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png\n'}
+[9.066247] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png\n'}
+[9.066276] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/meshes\n'}
+[9.066304] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE\n'}
+[9.066354] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE\n'}
+[9.066383] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01\n'}
+[9.066411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/model.sdf\n'}
+[9.066439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/model.config\n'}
+[9.066483] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/materials\n'}
+[9.066514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/materials/textures\n'}
+[9.066543] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png\n'}
+[9.066584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/meshes\n'}
+[9.066614] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE\n'}
+[9.066643] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE\n'}
+[9.066675] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01\n'}
+[9.066723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/model.sdf\n'}
+[9.066793] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/model.config\n'}
+[9.066840] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/materials\n'}
+[9.066884] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/materials/textures\n'}
+[9.066912] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png\n'}
+[9.066959] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png\n'}
+[9.067011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes\n'}
+[9.067058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE\n'}
+[9.067115] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE\n'}
+[9.067160] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE\n'}
+[9.067194] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01\n'}
+[9.067232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/model.sdf\n'}
+[9.067290] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/model.config\n'}
+[9.067334] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/materials\n'}
+[9.067378] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/materials/textures\n'}
+[9.067422] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png\n'}
+[9.067467] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes\n'}
+[9.067514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE\n'}
+[9.067559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE\n'}
+[9.067612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE\n'}
+[9.067648] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01\n'}
+[9.067693] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/model.sdf\n'}
+[9.067738] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/model.config\n'}
+[9.067778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/materials\n'}
+[9.067806] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/materials/textures\n'}
+[9.067834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png\n'}
+[9.067881] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/meshes\n'}
+[9.067913] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE\n'}
+[9.067952] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE\n'}
+[9.067981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02\n'}
+[9.068009] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/model.sdf\n'}
+[9.068037] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/model.config\n'}
+[9.068103] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/materials\n'}
+[9.068137] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures\n'}
+[9.068165] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png\n'}
+[9.068193] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png\n'}
+[9.068221] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/meshes\n'}
+[9.068249] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE\n'}
+[9.068278] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE\n'}
+[9.068306] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01\n'}
+[9.068334] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/model.sdf\n'}
+[9.068370] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/model.config\n'}
+[9.068429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/materials\n'}
+[9.068458] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/materials/textures\n'}
+[9.068486] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png\n'}
+[9.068530] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/meshes\n'}
+[9.068559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE\n'}
+[9.068588] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE\n'}
+[9.068616] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01\n'}
+[9.068644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/model.sdf\n'}
+[9.068673] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/model.config\n'}
+[9.068701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/materials\n'}
+[9.068729] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/materials/textures\n'}
+[9.068757] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png\n'}
+[9.068794] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/meshes\n'}
+[9.068822] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE\n'}
+[9.068851] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE\n'}
+[9.068880] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01\n'}
+[9.068947] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/model.sdf\n'}
+[9.068973] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/model.config\n'}
+[9.068999] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/materials\n'}
+[9.069024] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/materials/textures\n'}
+[9.069052] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png\n'}
+[9.069097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/meshes\n'}
+[9.069125] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE\n'}
+[9.069157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE\n'}
+[9.069207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02\n'}
+[9.069233] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/model.sdf\n'}
+[9.069261] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/model.config\n'}
+[9.069289] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/materials\n'}
+[9.069317] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/materials/textures\n'}
+[9.069345] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png\n'}
+[9.069373] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png\n'}
+[9.069402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/meshes\n'}
+[9.069429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE\n'}
+[9.069458] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE\n'}
+[9.069486] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01\n'}
+[9.069515] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/model.sdf\n'}
+[9.069543] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/model.config\n'}
+[9.069571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/materials\n'}
+[9.069611] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/materials/textures\n'}
+[9.069637] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png\n'}
+[9.069665] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/meshes\n'}
+[9.069693] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE\n'}
+[9.069731] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE\n'}
+[9.069757] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01\n'}
+[9.069782] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/model.sdf\n'}
+[9.069808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/model.config\n'}
+[9.069834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/materials\n'}
+[9.069861] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/materials/textures\n'}
+[9.069901] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png\n'}
+[9.069927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/meshes\n'}
+[9.069955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE\n'}
+[9.069984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE\n'}
+[9.070011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01\n'}
+[9.070039] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/model.sdf\n'}
+[9.070068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/model.config\n'}
+[9.070113] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/materials\n'}
+[9.070140] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/materials/textures\n'}
+[9.070166] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png\n'}
+[9.070193] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/meshes\n'}
+[9.070221] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE\n'}
+[9.070257] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE\n'}
+[9.070283] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03\n'}
+[9.070308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/model.sdf\n'}
+[9.070344] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/model.config\n'}
+[9.070370] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/materials\n'}
+[9.070397] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures\n'}
+[9.070426] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png\n'}
+[9.070465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png\n'}
+[9.070492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/meshes\n'}
+[9.070520] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[9.070548] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[9.070577] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02\n'}
+[9.070618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/model.sdf\n'}
+[9.070645] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/model.config\n'}
+[9.070710] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/materials\n'}
+[9.070736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures\n'}
+[9.070762] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png\n'}
+[9.070787] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png\n'}
+[9.070813] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/meshes\n'}
+[9.070842] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE\n'}
+[9.070868] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE\n'}
+[9.070894] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02\n'}
+[9.070919] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/model.sdf\n'}
+[9.070945] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/model.config\n'}
+[9.070970] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/materials\n'}
+[9.070996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures\n'}
+[9.071021] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png\n'}
+[9.071047] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png\n'}
+[9.071083] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/meshes\n'}
+[9.071111] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE\n'}
+[9.071138] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE\n'}
+[9.071164] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01\n'}
+[9.071192] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/model.sdf\n'}
+[9.071217] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/model.config\n'}
+[9.071243] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/materials\n'}
+[9.071268] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/materials/textures\n'}
+[9.071296] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png\n'}
+[9.071324] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/meshes\n'}
+[9.071350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE\n'}
+[9.071376] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE\n'}
+[9.071401] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01\n'}
+[9.071427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/model.sdf\n'}
+[9.071452] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/model.config\n'}
+[9.071478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/materials\n'}
+[9.071503] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/materials/textures\n'}
+[9.071529] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png\n'}
+[9.071557] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/materials/.DS_Store\n'}
+[9.071582] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/meshes\n'}
+[9.071608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE\n'}
+[9.071634] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE\n'}
+[9.071660] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/.DS_Store\n'}
+[9.071686] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01\n'}
+[9.071711] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/model.sdf\n'}
+[9.071737] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/model.config\n'}
+[9.071766] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/materials\n'}
+[9.071792] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/materials/textures\n'}
+[9.071820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png\n'}
+[9.071845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/meshes\n'}
+[9.071871] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE\n'}
+[9.071903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE\n'}
+[9.071932] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01\n'}
+[9.071958] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/model.sdf\n'}
+[9.071987] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/model.config\n'}
+[9.072012] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/materials\n'}
+[9.072038] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/materials/textures\n'}
+[9.072065] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png\n'}
+[9.072097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes\n'}
+[9.072123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE\n'}
+[9.072191] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE\n'}
+[9.072228] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE\n'}
+[9.072264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01\n'}
+[9.072297] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/model.sdf\n'}
+[9.072330] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/model.config\n'}
+[9.072363] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/materials\n'}
+[9.072396] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/materials/textures\n'}
+[9.072429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png\n'}
+[9.072522] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/meshes\n'}
+[9.072560] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE\n'}
+[9.072608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE\n'}
+[9.072646] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01\n'}
+[9.072683] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/model.sdf\n'}
+[9.072786] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/model.config\n'}
+[9.072845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/materials\n'}
+[9.072902] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/materials/textures\n'}
+[9.072957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png\n'}
+[9.073468] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/meshes\n'}
+[9.073748] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE\n'}
+[9.073791] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE\n'}
+[9.073825] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01\n'}
+[9.073856] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/model.sdf\n'}
+[9.073886] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/model.config\n'}
+[9.073915] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/materials\n'}
+[9.073945] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/materials/textures\n'}
+[9.073975] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png\n'}
+[9.074004] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/meshes\n'}
+[9.074042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE\n'}
+[9.074201] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE\n'}
+[9.074275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01\n'}
+[9.074318] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/model.sdf\n'}
+[9.074357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/model.config\n'}
+[9.074395] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/materials\n'}
+[9.074432] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/materials/textures\n'}
+[9.074469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png\n'}
+[9.074506] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/meshes\n'}
+[9.074542] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE\n'}
+[9.074579] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE\n'}
+[9.074615] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01\n'}
+[9.074652] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/model.sdf\n'}
+[9.074732] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/model.config\n'}
+[9.074773] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/materials\n'}
+[9.074811] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/materials/textures\n'}
+[9.074857] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png\n'}
+[9.074991] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes\n'}
+[9.075033] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE\n'}
+[9.075084] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws__Air conditioner_01.DAE\n'}
+[9.075172] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE\n'}
+[9.075211] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01\n'}
+[9.075247] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/model.sdf\n'}
+[9.075283] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/model.config\n'}
+[9.075319] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/materials\n'}
+[9.075354] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/materials/textures\n'}
+[9.075390] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png\n'}
+[9.075426] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png\n'}
+[9.075461] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/meshes\n'}
+[9.075498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE\n'}
+[9.075534] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE\n'}
+[9.075570] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03\n'}
+[9.075606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/model.sdf\n'}
+[9.075644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/model.config\n'}
+[9.075680] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/materials\n'}
+[9.075716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/materials/textures\n'}
+[9.075752] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png\n'}
+[9.075788] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png\n'}
+[9.075841] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/meshes\n'}
+[9.075878] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE\n'}
+[9.075992] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE\n'}
+[9.076036] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01\n'}
+[9.076110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/model.sdf\n'}
+[9.076162] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/model.config\n'}
+[9.076199] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/materials\n'}
+[9.076236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/materials/textures\n'}
+[9.076271] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png\n'}
+[9.076308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/meshes\n'}
+[9.076343] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE\n'}
+[9.076380] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE\n'}
+[9.076415] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01\n'}
+[9.076451] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/model.sdf\n'}
+[9.076487] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/model.config\n'}
+[9.076522] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/materials\n'}
+[9.076558] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/materials/textures\n'}
+[9.076594] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png\n'}
+[9.076631] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/meshes\n'}
+[9.076667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE\n'}
+[9.076849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE\n'}
+[9.076890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/.DS_Store\n'}
+[9.076926] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02\n'}
+[9.076963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/model.sdf\n'}
+[9.077001] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/model.config\n'}
+[9.077043] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/materials\n'}
+[9.077096] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/materials/textures\n'}
+[9.077192] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png\n'}
+[9.077296] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png\n'}
+[9.077343] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/meshes\n'}
+[9.077380] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE\n'}
+[9.077427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE\n'}
+[9.077463] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01\n'}
+[9.077499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/model.sdf\n'}
+[9.077535] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/model.config\n'}
+[9.077571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/materials\n'}
+[9.077607] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/materials/textures\n'}
+[9.077643] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png\n'}
+[9.077680] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png\n'}
+[9.077720] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/meshes\n'}
+[9.077756] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE\n'}
+[9.077792] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE\n'}
+[9.077828] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maps\n'}
+[9.077914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maps/turtlebot3_waffle_pi\n'}
+[9.077998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maps/turtlebot3_waffle_pi/map.yaml\n'}
+[9.078036] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maps/turtlebot3_waffle_pi/map.pgm\n'}
+[9.078080] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos\n'}
+[9.078146] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitE_02.jpg\n'}
+[9.078184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitD_01.jpg\n'}
+[9.078221] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitC_01.jpg\n'}
+[9.078257] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitB_03.jpg\n'}
+[9.078296] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitA_01.jpg\n'}
+[9.078332] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_03.jpg\n'}
+[9.078367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitA_02.jpg\n'}
+[9.078403] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitC_01.jpg\n'}
+[9.078452] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitA_02.jpg\n'}
+[9.078497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitE_01.jpg\n'}
+[9.078538] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_04.jpg\n'}
+[9.078575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_02.jpg\n'}
+[9.078624] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitC_02.jpg\n'}
+[9.078660] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitD_02.jpg\n'}
+[9.078702] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitA_01.jpg\n'}
+[9.078743] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitB_02.jpg\n'}
+[9.078780] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitB_01.jpg\n'}
+[9.078816] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitB_02.jpg\n'}
+[9.078852] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitB_01.jpg\n'}
+[9.078888] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_01.jpg\n'}
+[9.078924] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/small_house.world\n'}
+[9.078959] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/small_house.jpg\n'}
+[9.078996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/include/\n'}
+[9.079032] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[9.079070] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[9.079161] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[9.079199] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[9.079237] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[9.079273] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[9.079309] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[9.079346] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[9.079381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[9.079417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[9.079453] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[9.079489] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[9.079525] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[9.079561] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[9.079596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.079682] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.079720] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[9.079756] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[9.079798] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[9.079836] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[9.097344] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[9.097944] (-) EventReactorShutdown: {}

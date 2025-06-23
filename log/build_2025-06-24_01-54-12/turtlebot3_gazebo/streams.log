@@ -1,0 +1,570 @@
+[0.167s] Invoking command in '/home/anish/ps1_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/install/turtlebot3_gazebo
+[0.176s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.257s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.265s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.265s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.265s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.265s]   problems in calling code that expects `find_package` result variables
+[0.265s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.265s] Call Stack (most recent call first):
+[0.265s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.265s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.265s]   CMakeLists.txt:23 (find_package)
+[0.265s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.265s] [0m
+[0.283s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.306s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.307s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.310s] -- Searching for dependencies of ignition-math6
+[0.312s] -- Looking for OGRE...
+[0.316s] -- Found Ogre Ghadamon (1.9.0)
+[0.316s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.324s] -- Looking for OGRE_Paging...
+[0.324s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.324s] -- Looking for OGRE_Terrain...
+[0.324s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.324s] -- Looking for OGRE_Property...
+[0.324s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.324s] -- Looking for OGRE_RTShaderSystem...
+[0.324s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.324s] -- Looking for OGRE_Volume...
+[0.324s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.324s] -- Looking for OGRE_Overlay...
+[0.324s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.426s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.427s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.427s] -- Searching for dependencies of ignition-transport8
+[0.443s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.453s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.458s] -- Checking for module 'libzmq >= 4'
+[0.469s] --   Found libzmq , version 4.3.4
+[0.502s] -- Checking for module 'uuid'
+[0.512s] --   Found uuid, version 2.37.2
+[0.540s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.540s] -- Searching for dependencies of ignition-msgs5
+[0.557s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.562s] -- Checking for module 'tinyxml2'
+[0.572s] --   Found tinyxml2, version 9.0.0
+[0.600s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.600s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.600s] -- Searching for dependencies of ignition-common3
+[0.600s] -- Looking for dlfcn.h - found
+[0.600s] -- Looking for libdl - found
+[0.610s] -- Searching for <ignition-common3> component [graphics]
+[0.610s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.611s] -- Searching for dependencies of ignition-common3-graphics
+[0.611s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.612s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.612s] -- Searching for dependencies of ignition-fuel_tools4
+[0.645s] -- Checking for module 'jsoncpp'
+[0.658s] --   Found jsoncpp, version 1.9.5
+[0.691s] -- Checking for module 'libzip'
+[0.702s] --   Found libzip, version 1.7.3
+[0.732s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.732s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.732s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.733s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.733s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.745s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.750s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.784s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.795s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.810s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.811s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.822s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.844s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.854s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.900s] -- Configuring done
+[0.925s] -- Generating done
+[0.930s] -- Build files have been written to: /home/anish/ps1_ws/build/turtlebot3_gazebo
+[0.942s] Invoked command in '/home/anish/ps1_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/install/turtlebot3_gazebo
+[0.943s] Invoking command in '/home/anish/ps1_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/build/turtlebot3_gazebo -- -j16 -l16
+[0.979s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[0.997s] [ 25%] Built target turtlebot3_drive
+[1.012s] [ 62%] Built target obstacles
+[1.012s] [ 75%] Built target obstacle1
+[1.012s] [100%] Built target obstacle2
+[1.024s] Invoked command in '/home/anish/ps1_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/build/turtlebot3_gazebo -- -j16 -l16
+[1.025s] Invoking command in '/home/anish/ps1_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anish/ps1_ws/build/turtlebot3_gazebo
+[1.030s] -- Install configuration: ""
+[1.031s] -- Execute custom install script
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[1.031s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_small_house_simple.launch.py
+[1.032s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[1.032s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[1.032s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[1.032s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[1.032s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[1.032s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[1.033s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[1.034s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[1.035s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maps/turtlebot3_waffle_pi/map.pgm
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maps/turtlebot3_waffle_pi/map.yaml
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/.DS_Store
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws__Air conditioner_01.DAE
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/model.config
+[1.041s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerA_01/model.sdf
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/model.config
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_AirconditionerB_01/model.sdf
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/model.config
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_BalconyTable_01/model.sdf
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/model.config
+[1.042s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Ball_01/model.sdf
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/model.config
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Bed_01/model.sdf
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/model.config
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Board_01/model.sdf
+[1.043s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/model.config
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Carpet_01/model.sdf
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/model.config
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairA_01/model.sdf
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE
+[1.044s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/model.config
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ChairD_01/model.sdf
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/model.config
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Chandelier_01/model.sdf
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/model.config
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CoffeeTable_01/model.sdf
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png
+[1.045s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/model.config
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_CookingBench_01/model.sdf
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/model.config
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Curtain_01/model.sdf
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png
+[1.046s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/model.config
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_01/model.sdf
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/model.config
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitA_02/model.sdf
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png
+[1.047s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/model.config
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_01/model.sdf
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/model.config
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitB_02/model.sdf
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE
+[1.048s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/model.config
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_01/model.sdf
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/model.config
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitC_02/model.sdf
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/model.config
+[1.049s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_01/model.sdf
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/model.config
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_02/model.sdf
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/model.config
+[1.050s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_03/model.sdf
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/model.config
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_DeskPortraitD_04/model.sdf
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/model.config
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Door_01/model.sdf
+[1.051s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/model.config
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Dumbbell_01/model.sdf
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/model.config
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FitnessEquipment_01/model.sdf
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/model.config
+[1.052s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FloorB_01/model.sdf
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/model.config
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_01/model.sdf
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/model.config
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_FoldingDoor_02/model.sdf
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes/aws_ handle_01_collision.DAE
+[1.053s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/model.config
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Handle_01/model.sdf
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/model.config
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_HouseWallB_01/model.sdf
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/model.config
+[1.054s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenCabinet_01/model.sdf
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/model.config
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenTable_01/model.sdf
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/model.config
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_KitchenUtensils_01/model.sdf
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE
+[1.055s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/model.config
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_LightC_01/model.sdf
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/model.config
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_NightStand_01/model.sdf
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/model.config
+[1.056s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Pillow_01/model.sdf
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/model.config
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_01/model.sdf
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/model.config
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitA_02/model.sdf
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png
+[1.057s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/model.config
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_01/model.sdf
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/model.config
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_02/model.sdf
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png
+[1.058s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/model.config
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitB_03/model.sdf
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/model.config
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitC_01/model.sdf
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE
+[1.059s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/model.config
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_01/model.sdf
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/model.config
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitD_02/model.sdf
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/model.config
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_01/model.sdf
+[1.060s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/model.config
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_PortraitE_02/model.sdf
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/model.config
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Quilt_01/model.sdf
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE
+[1.061s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/model.config
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Rangehood_01/model.sdf
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/model.config
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ReadingDesk_01/model.sdf
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/model.config
+[1.062s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Refrigerator_01/model.sdf
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/model.config
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomCeiling_01/model.sdf
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/model.config
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWall_01/model.sdf
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE
+[1.063s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/model.config
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_RoomWindow_01/model.sdf
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/model.config
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SeasoningBox_01/model.sdf
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/model.config
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SecurityCamera_01/model.sdf
+[1.064s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/model.config
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_ShoeRack_01/model.sdf
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/model.config
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaB_01/model.sdf
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/model.config
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_SofaC_01/model.sdf
+[1.065s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/model.config
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Sofa_01/model.sdf
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/model.config
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TVCabinet_01/model.sdf
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE
+[1.066s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/model.config
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_01/model.sdf
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/model.config
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_TV_02/model.sdf
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/.DS_Store
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/materials/.DS_Store
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/model.config
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tablet_01/model.sdf
+[1.067s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/model.config
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Tableware_01/model.sdf
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/model.config
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Trash_01/model.sdf
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/model.config
+[1.068s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Vase_01/model.sdf
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/model.config
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/aws_robomaker_residential_Wardrobe_01/model.sdf
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/turtlebot3_waffle_pi/model-1_4_.sdf
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/turtlebot3_waffle_pi/model.config
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/models/turtlebot3_waffle_pi/model.sdf
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitA_01.jpg
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitA_02.jpg
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitB_01.jpg
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitB_02.jpg
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitC_01.jpg
+[1.069s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitC_02.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_01.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_02.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_03.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/DeskPortraitD_04.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitA_01.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitA_02.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitB_01.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitB_02.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitB_03.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitC_01.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitD_01.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitD_02.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitE_01.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/photos/PortraitE_02.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/small_house.jpg
+[1.070s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/small_house.world
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[1.071s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[1.072s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[1.072s] -- Symlinking: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[1.082s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[1.082s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.083s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.083s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[1.083s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[1.083s] -- Up-to-date symlink: /home/anish/ps1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[1.085s] Invoked command in '/home/anish/ps1_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anish/ps1_ws/build/turtlebot3_gazebo

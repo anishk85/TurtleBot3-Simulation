@@ -1,0 +1,85 @@
+[0.029s] Invoking command in '/home/anish/ps1_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/anish/ps1_ws/install/my_world_launcher:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/install/turtlebot3_node
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.237s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.484s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.560s] -- Found dynamixel_sdk: 3.8.4 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.563s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.598s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.603s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.610s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.669s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[0.708s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.712s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.732s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.739s] -- Looking for pthread.h
+[0.805s] -- Looking for pthread.h - found
+[0.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.869s] -- Found Threads: TRUE  
+[0.903s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.916s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.935s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.947s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.956s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.018s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[1.075s] -- Configuring done
+[1.087s] -- Generating done
+[1.092s] -- Build files have been written to: /home/anish/ps1_ws/build/turtlebot3_node
+[1.100s] Invoked command in '/home/anish/ps1_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/anish/ps1_ws/install/my_world_launcher:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/install/turtlebot3_node
+[1.101s] Invoking command in '/home/anish/ps1_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/anish/ps1_ws/install/my_world_launcher:/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/build/turtlebot3_node -- -j16 -l16
+[1.144s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.144s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.144s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.144s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.144s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.144s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.144s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.144s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.144s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.145s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.145s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[15.358s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[15.865s] [ 85%] Built target turtlebot3_node_lib
+[15.884s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[19.044s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[20.775s] [100%] Built target turtlebot3_ros
+[20.789s] Invoked command in '/home/anish/ps1_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/anish/ps1_ws/install/my_world_launcher:/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/build/turtlebot3_node -- -j16 -l16
+[20.790s] Invoking command in '/home/anish/ps1_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/anish/ps1_ws/install/my_world_launcher:/opt/ros/humble /usr/bin/cmake --install /home/anish/ps1_ws/build/turtlebot3_node
+[20.800s] -- Install configuration: ""
+[20.800s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[20.800s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[20.800s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[20.800s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[20.801s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[20.814s] -- Set runtime path of "/home/anish/ps1_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[20.814s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[20.814s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[20.814s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[20.814s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[20.814s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.815s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[20.816s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[20.816s] -- Installing: /home/anish/ps1_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[20.818s] Invoked command in '/home/anish/ps1_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/anish/ps1_ws/install/my_world_launcher:/opt/ros/humble /usr/bin/cmake --install /home/anish/ps1_ws/build/turtlebot3_node
