@@ -3,7 +3,7 @@
 This workspace contains TurtleBot3 simulation packages for ROS 2, including Gazebo simulation, Cartographer SLAM, and various world models.
 ## Autonomous Exploration with Explore Lite
 
-This workspace supports autonomous exploration using the [explore_lite](https://github.com/ros-planning/explore_lite) package. Explore Lite enables the TurtleBot3 to autonomously explore unknown environments and build maps without manual teleoperation.
+This workspace supports autonomous exploration using the explore_lite package. Explore Lite enables the TurtleBot3 to autonomously explore unknown environments and build maps without manual teleoperation.
 
 
 ## Workspace Structure
