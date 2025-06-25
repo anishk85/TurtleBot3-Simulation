@@ -33,6 +33,8 @@ setup(
         'console_scripts': [
             'autonomous_explorer = turtlebot3_autonomous_exploration.autonomous_explorer:main',
             'exploration_controller = turtlebot3_autonomous_exploration.exploration_controller:main',
+            'exploration_recovery = turtlebot3_autonomous_exploration.exploration_recovery:main',
+
         ],
     },
 )

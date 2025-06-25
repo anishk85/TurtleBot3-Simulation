@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Ultra-Aggressive Exploration Parameters for Complete Coverage
+With Recovery Behaviors: Backtracking, New Path, Skip Area
 """
 
 from launch import LaunchDescription
@@ -16,10 +17,9 @@ def generate_launch_description():
         description='Use simulation time'
     )
     
-    # Get launch configuration
     use_sim_time = LaunchConfiguration('use_sim_time')
     
-    # ULTRA-AGGRESSIVE exploration parameters
+    # Main exploration node
     explore_node = Node(
         package='explore_lite',
         executable='explore',
@@ -31,29 +31,33 @@ def generate_launch_description():
             {'costmap_topic': 'global_costmap/costmap'},
             {'costmap_updates_topic': 'global_costmap/costmap_updates'},
             {'visualize': True},
-            
-            # CRITICAL: Make frontier detection very sensitive
-            {'min_frontier_size': 0.05},        # Detect tiny frontiers
-            {'min_distance': 0.01},             # Go very close to frontiers
-            
-            # Frontier evaluation - favor exploration over safety
-            {'potential_scale': 0.1},           # Lower obstacle avoidance
-            {'gain_scale': 10.0},               # Heavily favor unexplored areas
-            {'orientation_scale': 0.0},         # Don't care about orientation
-            
-            # Timing - be more patient
-            {'planner_frequency': 0.1},         # Plan less frequently
-            {'progress_timeout': 300.0},        # 5 minute timeout
-            {'transform_tolerance': 3.0},       # Very tolerant of delays
-            
-            # Navigation behavior
-            {'frontier_travel_point': 'closest'}, # Go to closest point
-            {'allow_unknown': True},            # Allow navigation through unknown
-            {'explore_clear_space': True},      # Explore open areas too
+            {'min_frontier_size': 0.05},
+            {'min_distance': 0.01},
+            {'potential_scale': 0.1},
+            {'gain_scale': 10.0},
+            {'orientation_scale': 0.0},
+            {'planner_frequency': 0.1},
+            {'progress_timeout': 300.0},
+            {'transform_tolerance': 3.0},
+            {'frontier_travel_point': 'closest'},
+            {'allow_unknown': True},
+            {'explore_clear_space': True},
+        ]
+    )
+
+    # Recovery node (must be implemented in your package)
+    recovery_node = Node(
+        package='turtlebot3_autonomous_exploration',
+        executable='exploration_recovery',
+        name='exploration_recovery',
+        output='screen',
+        parameters=[
+            {'use_sim_time': use_sim_time}
         ]
     )
     
     return LaunchDescription([
         use_sim_time_arg,
-        explore_node
+        explore_node,
+        recovery_node
     ])

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# not using this currently
+
 """
 Frontier Detection for Autonomous Exploration - Optimized for Small House
 Detects frontiers (boundaries between known free space and unknown areas)
