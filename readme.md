@@ -294,54 +294,6 @@ To perform autonomous exploration in the custom Gazebo environment, follow these
 - **World Files**: `src/Dataset-of-Gazebo-Worlds-Models-and-Maps/worlds/small_house/`
 - **Environment Setup**: Load ps1_ws workspace before running
 
-## Configuration Files
-
-### Cartographer Configuration (`turtlebot3_lds_2d.lua`)
-
-The Cartographer configuration is optimized for TurtleBot3 LDS (Laser Distance Sensor) with the following key settings:
-
-#### Main Parameters:
-- **Map Frame**: `map`
-- **Tracking Frame**: `imu_link` 
-- **Published Frame**: `odom`
-- **Laser Scans**: 1 scan topic
-- **Range**: 0.12m - 8.0m
-
-#### Trajectory Builder 2D:
-- **Motion Filter**: 
-  - Max angle: 0.1 radians
-  - Max distance: 0.1 meters
-  - Max time: 0.5 seconds
-- **Scan Matching**:
-  - Linear search window: 0.15m
-  - Angular search window: 35 degrees
-- **Submaps**:
-  - Range data per submap: 160
-  - Grid resolution: 0.05m
-  - Hit probability: 0.7
-  - Miss probability: 0.4
-
-#### Pose Graph Optimization:
-- **Constraint Building**:
-  - Min score: 0.65
-  - Global localization min score: 0.7
-  - Max constraint distance: 25.0m
-- **Loop Closure**:
-  - Optimization every 90 nodes
-  - Linear search window: 7.0m
-  - Angular search window: 30 degrees
-
-### Gazebo Models
-
-The workspace includes various AWS RoboMaker residential models:
-
-#### Air Conditioner Model (`aws_robomaker_residential_AirconditionerA_01`)
-- **Type**: Static model
-- **Mass**: 1 kg
-- **Meshes**: 
-  - Collision: `aws_AirconditionerA_01_collision.DAE`
-  - Visual: `aws_AirconditionerA_01_visual.DAE`
-- **Layer**: 1 (for rendering optimization)
 
 ## 📊 Features
 
@@ -352,6 +304,7 @@ The workspace includes various AWS RoboMaker residential models:
 ✅ **Custom Environment**: Detailed house simulation with furniture and rooms  
 ✅ **Real-time Visualization**: RViz integration for monitoring and control  
 ✅ **CycloneDDS**: Enhanced DDS implementation for better performance  
+✅ **Explore Lite Integration**: Autonomous exploration of unknown environments using the explore_lite package  
 
 ## 🎥 Demo
 
@@ -360,6 +313,9 @@ The robot can:
 - **Goal Navigation**: Automatically navigate between rooms avoiding obstacles
 - **Re-localization**: Recover if localization is lost during navigation
 - **Dynamic Replanning**: Adapt paths when encountering new obstacles
+- **Autonomous Exploration (Explore Lite)**: Automatically explore and map unknown areas using the explore_lite      package, enabling the robot to discover and cover the environment without manual intervention
+
+
 
 ## ⚙️ Environment Variables Explained
 
