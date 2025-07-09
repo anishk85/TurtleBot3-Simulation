@@ -4,10 +4,17 @@
 # 🤖 **TurtleBot3 Simulation Workspace**
 
 
-<video width="100%" autoplay loop muted playsinline>
-   <source src="ps1_complete.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
+<div align="center">
+
+### 🎥 **Demo Videos**
+
+[![TurtleBot3 Simulation Demo](https://img.youtube.com/vi/KL_PmrV-Q5o/0.jpg)](https://youtu.be/KL_PmrV-Q5o)
+*TurtleBot3 Simulation Demo*
+
+[![TurtleBot3 Autonomous Exploration](https://img.youtube.com/vi/18np9hjbdX8/0.jpg)](https://youtu.be/18np9hjbdX8)
+*TurtleBot3 Autonomous Exploration*
+
+</div>
 
 > *Watch TurtleBot3 autonomously explore, map, and navigate a custom house simulation!*
 
