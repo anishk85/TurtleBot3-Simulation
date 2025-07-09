@@ -1,8 +1,6 @@
-
 ---
 
 # 🤖 **TurtleBot3 Simulation Workspace**
-
 
 <div align="center">
 
@@ -204,7 +202,7 @@ Includes **AWS RoboMaker** residential models:
 | --------------------- | ------------------------------------------- |
 | **Map frame missing** | Use RViz **2D Pose Estimate**               |
 | **Goals fail**        | Set goals in free space only                |
-| **Robot won’t move**  | Verify `use_sim_time` & `$TURTLEBOT3_MODEL` |
+| **Robot won't move**  | Verify `use_sim_time` & `$TURTLEBOT3_MODEL` |
 | **Missing models**    | Check `$GAZEBO_MODEL_PATH`                  |
 | **SLAM issues**       | Verify `/scan` topic & TF tree              |
 
@@ -214,7 +212,7 @@ Includes **AWS RoboMaker** residential models:
 
 ✅ Tune `num_range_data`, `hit_probability`, `miss_probability` in `turtlebot3_lds_2d.lua`
 ✅ Keep visual meshes simple for faster Gazebo performance
-✅ Use `CycloneDDS` for robust ROS 2 communication
+✅ Use `CycloneDX` for robust ROS 2 communication
 
 ---
 
@@ -261,4 +259,3 @@ Special thanks to:
 ✨ *Enjoy mapping & navigating with your TurtleBot3!*
 
 ---
-
